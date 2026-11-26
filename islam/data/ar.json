@@ -14,7 +14,8 @@
     "honors": "التكريمات",
     "ventures": "المشروعات الريادية",
     "digital": "الأنظمة الرقمية وحالة كل منها",
-    "credentials": "الشهادات والتأهيل"
+    "credentials": "الشهادات والتأهيل",
+    "contact": "تواصل"
   },
   "stats": [
     {
@@ -25,7 +26,7 @@
     {
       "prefix": "أكثر من",
       "value": "1,500",
-      "label": "مشاركة تدريبية عبر الورش والبرامج (عدد المشاركات وليس الأشخاص)"
+      "label": "متدرّب ومتدرّبة درّبهم عبر الورش والبرامج"
     },
     {
       "prefix": "أكثر من",
@@ -265,5 +266,22 @@
     "ليسانس الحقوق، جامعة بني سويف (2022)",
     "صانع محتوى منذ 2022 في ريادة الأعمال والذكاء الاصطناعي وتنمية الشباب، ويقود مجتمعا يتجاوز 11 ألف متابع. وعضو مجلس إدارة نادي ذوي الإعاقة بالفيوم."
   ],
-  "footer": "LinkedIn: linkedin.com/in/eslamhagsalam"
+  "footer": "LinkedIn: linkedin.com/in/eslamhagsalam",
+  "contact": {
+    "intro": "للتعاون في التدريب والبرامج والاستشارات:",
+    "wa_label": "واتساب",
+    "wa_value": "+20 101 349 4727",
+    "wa_href": "https://wa.me/201013494727?text=%D9%85%D8%B1%D8%AD%D8%A8%D9%8B%D8%A7+%D8%A3%D8%B3%D8%AA%D8%A7%D8%B0+%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D8%8C+%D9%88%D8%B5%D9%84%D8%AA+%D8%A5%D9%84%D9%89+%D8%B5%D9%81%D8%AD%D8%AA%D9%83+%D8%A7%D9%84%D8%B4%D8%AE%D8%B5%D9%8A%D8%A9+%D9%88%D8%A3%D8%B1%D8%BA%D8%A8+%D9%81%D9%8A+%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1+%D8%B9%D9%86+%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%D9%83+%D8%A7%D9%84%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8%D9%8A%D8%A9.",
+    "tel_label": "مكالمات",
+    "tel_value": "+20 155 320 0015",
+    "tel_href": "tel:+201553200015",
+    "email_label": "البريد الإلكتروني",
+    "email_value": "eslamragap016@gmail.com",
+    "email_href": "mailto:eslamragap016@gmail.com",
+    "fb_label": "فيسبوك",
+    "fb_value": "إسلام حاج سالم",
+    "fb_href": "https://www.facebook.com/share/1CRi1L8mB6/",
+    "vcf_label": "حفظ جهة الاتصال",
+    "vcf_href": "../uploads/islam-ragab-eid.vcf"
+  }
 }
