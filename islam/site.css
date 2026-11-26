@@ -57,3 +57,4 @@ body{font-family:'Noto Naskh Arabic','Noto Sans Arabic',Inter,system-ui,sans-ser
 .mono{overflow:hidden}.mono img{width:100%;height:100%;border-radius:50%;object-fit:cover;display:block}
 .num small{display:block;font-size:13px;font-weight:700;color:var(--sg);line-height:1.4}
 footer a{color:var(--l1)}
+.ltrv{direction:ltr;unicode-bidi:isolate}
