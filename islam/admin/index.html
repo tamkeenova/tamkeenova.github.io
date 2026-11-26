@@ -17,30 +17,21 @@ html,body{margin:0;background:#f4f1e8}
 #help b{color:#0f4c5c}
 #help ol{margin:8px 0;padding-inline-start:22px}
 #help a{color:#d9822b;font-weight:700}
-#directbar{position:fixed;bottom:0;inset-inline:0;z-index:60;background:#0f4c5c;color:#f4f1e8;font:14px/1.7 'Noto Naskh Arabic','Noto Sans Arabic',system-ui,sans-serif;display:none;gap:8px;align-items:center;justify-content:center;padding:9px 40px 9px 12px;text-align:center;box-shadow:0 -2px 10px rgba(0,0,0,.2)}
-#directbar a{color:#f4c48a;font-weight:700}
-#directbar button{position:absolute;inset-inline-end:8px;top:50%;transform:translateY(-50%);background:none;border:0;color:#c5dde1;font-size:18px;cursor:pointer;padding:4px 8px}
 </style>
 </head>
 <body>
-<div id="directbar" dir="rtl" lang="ar">
-  <span>زر الدخول لا يستجيب على هاتفك؟</span>
-  <a href="https://turbo.decapcms.org/auth/decap-redirect?redirect_to=https%3A%2F%2Ftamkeenova.github.io%2Fislam%2Fadmin%2F&site_id=afd90b5e-200f-47a0-883f-01d4bc65b02f">دخول مباشر بدون نافذة منبثقة</a>
-  <button id="directclose" type="button" aria-label="إغلاق">×</button>
-</div>
 <div id="splash" dir="rtl" lang="ar">
   <div class="box">
     <h1>محرر الموقع</h1>
     <div class="spin" id="spin"></div>
     <div id="msg">جاري تحميل المحرر…</div>
-    <div class="hint">بعد التحميل اضغط «Login with Turbo» ثم «Continue with GitHub» وسجّل الدخول بحساب GitHub الخاص بتمكينوفا.</div>
+    <div class="hint">بعد التحميل اضغط «Login with GitHub» وسجّل الدخول بحساب GitHub الخاص بتمكينوفا.</div>
     <div id="help">
       <b>لم يتم تحميل المحرر. جرّب ما يلي:</b>
       <ol>
         <li>افتح هذا الرابط في متصفح كروم أو سفاري مباشرةً، وليس من داخل واتساب (المتصفح الداخلي قد يمنع نافذة تسجيل الدخول).</li>
         <li>تأكد من اتصال الإنترنت ثم حدّث الصفحة.</li>
-        <li>إذا ظهرت رسالة «Login was cancelled» فالمتصفح منع النافذة المنبثقة: استخدم رابط «دخول مباشر بدون نافذة منبثقة» في الشريط أسفل الصفحة.</li>
-        <li>أول مرة فقط: إذا ظهرت صفحة «Could not redirect»، سجّل الدخول من <a href="https://turbo.decapcms.org/login" style="color:#d9822b">turbo.decapcms.org/login</a> ثم افتح صفحة موقعك من لوحة التحكم، أو أعد فتح رابط «دخول مباشر» — بعدها يعمل الرابط بضغطة واحدة دائمًا.</li>
+        <li>إذا ظهرت رسالة «Login was cancelled» فالمتصفح منع النافذة المنبثقة: اسمح بالنوافذ المنبثقة لهذا الموقع ثم أعد المحاولة.</li>
       </ol>
       <a href="javascript:location.reload()">إعادة المحاولة</a>
     </div>
@@ -56,15 +47,6 @@ html,body{margin:0;background:#f4f1e8}
     if(sp)sp.style.display='none'; if(m)m.style.display='none'; if(h)h.style.display='block';
   }
   var timer=setTimeout(showHelp,15000);
-  var bar=document.getElementById('directbar');
-  function syncBar(){
-    if(!bar) return;
-    var authed=location.hash.indexOf('/collections')!==-1 || location.hash.indexOf('/media')!==-1;
-    var closed=sessionStorage.getItem('directbar_closed')==='1';
-    bar.style.display=(window.CMS_READY && !authed && !closed)?'flex':'none';
-  }
-  document.getElementById('directclose').addEventListener('click',function(){sessionStorage.setItem('directbar_closed','1');bar.style.display='none'});
-  window.addEventListener('hashchange',syncBar);
   var s=document.createElement('script');
   s.src='https://cdn.jsdelivr.net/npm/decap-cms@^3.0.0/dist/decap-cms.js';
   s.onerror=showHelp;
@@ -75,7 +57,6 @@ html,body{margin:0;background:#f4f1e8}
         window.CMS_READY=true;
         var sp=document.getElementById('splash');
         if(sp&&sp.parentNode)sp.parentNode.removeChild(sp);
-        syncBar();
       }
     },250);
     setTimeout(function(){clearInterval(iv);if(!window.CMS)showHelp();},15000);
