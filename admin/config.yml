@@ -1,0 +1,102 @@
+# turbo_site_id is the UUID shown on the Turbo site's Overview tab (set at setup).
+backend:
+  name: turbo-github
+  turbo_site_id: SET-AT-SETUP
+  branch: main
+media_folder: uploads
+public_folder: uploads
+locale: en
+collections:
+  - name: site
+    label: Site
+    files:
+      - name: shared
+        label: Photo and links (both languages)
+        file: data/site.json
+        fields:
+          - { label: Profile photo, name: photo, widget: image, required: false, hint: "Leave empty to show the initials monogram" }
+          - { label: LinkedIn URL, name: linkedin, widget: string, required: false }
+      - name: ar
+        label: Arabic content
+        file: data/ar.json
+        fields: &lang_fields
+          - { label: Name, name: name, widget: string }
+          - { label: Location line, name: kicker, widget: string }
+          - { label: Role, name: role, widget: string }
+          - { label: Also known as, name: aka, widget: string }
+          - { label: Intro, name: intro, widget: text }
+          - { label: Motto, name: motto, widget: string }
+          - label: Section titles
+            name: titles
+            widget: object
+            fields:
+              - { label: Numbers, name: stats, widget: string }
+              - { label: Expertise, name: expertise, widget: string }
+              - { label: Journey, name: journey, widget: string }
+              - { label: Field story, name: field, widget: string }
+              - { label: Training programs, name: programs, widget: string }
+              - { label: Honors, name: honors, widget: string }
+              - { label: Ventures, name: ventures, widget: string }
+              - { label: Digital systems, name: digital, widget: string }
+              - { label: Credentials, name: credentials, widget: string }
+          - label: Numbers
+            name: stats
+            widget: list
+            fields:
+              - { label: Qualifier (More than / About / empty), name: prefix, widget: string, required: false }
+              - { label: Number, name: value, widget: string }
+              - { label: Description, name: label, widget: text }
+          - label: Expertise
+            name: expertise
+            widget: list
+            fields: [ { label: Title, name: title, widget: string }, { label: Text, name: body, widget: text } ]
+          - label: Journey
+            name: journey
+            widget: list
+            fields: [ { label: Dates, name: date, widget: string }, { label: Title, name: title, widget: string }, { label: Text, name: body, widget: text } ]
+          - label: Field story
+            name: field
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Text, name: body, widget: text }
+              - { label: Before label, name: before_label, widget: string }
+              - { label: Before range (text), name: before_range, widget: string }
+              - { label: Before min, name: before_min, widget: number }
+              - { label: Before max, name: before_max, widget: number }
+              - { label: After label, name: after_label, widget: string }
+              - { label: After range (text), name: after_range, widget: string }
+              - { label: After min, name: after_min, widget: number }
+              - { label: After max, name: after_max, widget: number }
+              - { label: Scale maximum, name: scale_max, widget: number }
+              - { label: Note, name: note, widget: text }
+          - label: Training programs
+            name: programs
+            widget: list
+            fields: [ { label: Title, name: title, widget: string }, { label: Text, name: body, widget: text } ]
+          - label: Honors
+            name: honors
+            widget: list
+            fields: [ { label: Label (year or event), name: tag, widget: string }, { label: Title, name: title, widget: string }, { label: Text, name: body, widget: text } ]
+          - label: Ventures
+            name: ventures
+            widget: list
+            fields: &tagged
+              - { label: Badge color, name: status, widget: select, options: [ { label: Green, value: ok }, { label: Amber, value: wip }, { label: Blue, value: pr } ] }
+              - { label: Badge text, name: tag, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Text, name: body, widget: text }
+          - label: Digital systems
+            name: digital
+            widget: list
+            fields: *tagged
+          - label: Credentials
+            name: credentials
+            widget: list
+            fields: [ { label: Group (year or body), name: group, widget: string }, { label: Items, name: items, widget: list, field: { label: Item, name: item, widget: string } } ]
+          - { label: Extra lines, name: credentials_extra, widget: list, field: { label: Line, name: line, widget: text } }
+          - { label: Footer text (used if no LinkedIn URL), name: footer, widget: string, required: false }
+      - name: en
+        label: English content
+        file: data/en.json
+        fields: *lang_fields
