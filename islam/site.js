@@ -52,7 +52,7 @@ var ft=e('footer');
 if(d.contact){var ct2=d.contact,fc=e('div','ftc');
  var fl=function(href,lab,val){var x=e('a');x.href=href;x.target='_blank';x.rel='noopener';fc.appendChild(x);
   if(lab)x.appendChild(document.createTextNode(lab+(val?': ':'')));
-  if(val){var v=e('span','ltrv',val);v.setAttribute('dir','ltr')}
+  if(val){var v=e('span','ltrv',val);v.setAttribute('dir','ltr');x.appendChild(v)}
   return x};
  if(ct2.wa_href)fl(ct2.wa_href,ct2.wa_label,ct2.wa_value);
  if(ct2.tel_href)fl(ct2.tel_href,ct2.tel_label,ct2.tel_value);
