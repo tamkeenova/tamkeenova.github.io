@@ -1,7 +1,7 @@
 # turbo_site_id is the UUID shown on the Turbo site's Overview tab (set at setup).
 backend:
   name: turbo-github
-  turbo_site_id: SET-AT-SETUP
+  turbo_site_id: afd90b5e-200f-47a0-883f-01d4bc65b02f
   branch: main
 media_folder: uploads
 public_folder: uploads
