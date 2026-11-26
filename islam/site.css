@@ -27,11 +27,16 @@ footer{background:var(--g);color:var(--cr);border-radius:16px;max-width:1000px;m
 header,footer,.num,.tag{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
 
 body{font-family:'Noto Naskh Arabic','Noto Sans Arabic',Inter,system-ui,sans-serif}
-.nav{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid var(--ln)}
-.nav .in{max-width:1000px;margin:auto;padding:8px 18px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
-.nav .brand{font-weight:700;color:var(--g);margin-inline-end:auto;font-size:16px}
-.nav a{color:var(--ink);text-decoration:none;font-size:13px;padding:8px 10px;border-radius:20px;min-height:40px;display:inline-flex;align-items:center}
-.nav a.on{background:var(--g);color:#fff}.nav a.lg{border:1px solid var(--t);color:var(--t);font-weight:700}
+.bars{position:sticky;top:0;z-index:20;background:#fff;box-shadow:0 1px 0 var(--ln)}
+.topbar .in{max-width:1000px;margin:auto;padding:10px 18px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.topbar .brand{font-weight:700;color:var(--g);margin-inline-end:auto;font-size:16px}
+.langs{display:flex;gap:6px}
+.langs a{text-decoration:none;font-size:12.5px;font-weight:700;padding:4px 14px;border-radius:20px;border:1.5px solid var(--t);color:var(--t);min-height:32px;display:inline-flex;align-items:center}
+.langs a.on{background:var(--t);color:#fff;border-color:var(--t)}
+.nav{background:var(--cr);border-top:1px solid var(--ln);border-bottom:1px solid var(--ln)}
+.nav .in{max-width:1000px;margin:auto;padding:5px 18px;display:flex;align-items:center;justify-content:center;gap:4px;flex-wrap:wrap}
+.nav a{color:var(--ink);text-decoration:none;font-size:13px;padding:7px 12px;border-radius:20px;min-height:38px;display:inline-flex;align-items:center}
+.nav a.on{background:var(--g);color:#fff}
 .mono{overflow:hidden}.mono img{width:100%;height:100%;border-radius:50%;object-fit:cover;display:block}
 .num small{display:block;font-size:13px;font-weight:700;color:var(--sg);line-height:1.4}
 footer a{color:var(--l1)}

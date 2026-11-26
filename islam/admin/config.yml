@@ -3,22 +3,23 @@ backend:
   name: turbo-github
   turbo_site_id: afd90b5e-200f-47a0-883f-01d4bc65b02f
   branch: main
-media_folder: uploads
-public_folder: uploads
+media_folder: islam/uploads
+public_folder: /islam/uploads
 locale: en
+site_url: https://tamkeenova.github.io/islam/
 collections:
   - name: site
     label: Site
     files:
       - name: shared
         label: Photo and links (both languages)
-        file: data/site.json
+        file: islam/data/site.json
         fields:
           - { label: Profile photo, name: photo, widget: image, required: false, hint: "Leave empty to show the initials monogram" }
           - { label: LinkedIn URL, name: linkedin, widget: string, required: false }
       - name: ar
         label: Arabic content
-        file: data/ar.json
+        file: islam/data/ar.json
         fields: &lang_fields
           - { label: Name, name: name, widget: string }
           - { label: Location line, name: kicker, widget: string }
@@ -98,5 +99,5 @@ collections:
           - { label: Footer text (used if no LinkedIn URL), name: footer, widget: string, required: false }
       - name: en
         label: English content
-        file: data/en.json
+        file: islam/data/en.json
         fields: *lang_fields
