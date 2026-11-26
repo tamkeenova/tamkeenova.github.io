@@ -1,20 +1,20 @@
 {
   "name": "Islam Ragab Eid",
-  "kicker": "Fayoum, Egypt",
+  "kicker": "Fayoum, Egypt (edit test)",
   "role": "Program Manager and Certified Trainer · Entrepreneurship, Innovation and Youth Development",
   "aka": "Also known on social media as Islam Hagg Salem",
   "intro": "A specialist in designing and managing entrepreneurship and training programs and in building partnerships with government, international and civil-society institutions. His work combines field project management, training, mentoring and digital systems, and it is measured by results.",
   "motto": "Understand the need. Plan with rigor. Deliver in the field. Measure the impact.",
   "titles": {
-    "stats": "Impact in numbers",
-    "expertise": "Expertise",
-    "journey": "Professional journey",
-    "field": "From the field: the vaccination campaign",
-    "programs": "Selected training programs",
-    "honors": "Honors",
     "ventures": "Ventures",
+    "journey": "Professional journey",
+    "honors": "Honors",
+    "programs": "Selected training programs",
+    "expertise": "Expertise",
     "digital": "Digital systems and the status of each",
-    "credentials": "Credentials"
+    "field": "From the field: the vaccination campaign",
+    "credentials": "Credentials",
+    "stats": "Impact in numbers"
   },
   "stats": [
     {
@@ -123,18 +123,18 @@
     }
   ],
   "field": {
-    "title": "From a fixed vaccination point to daily village visits",
-    "body": "He proposed moving from a fixed point to daily village visits and persuaded management and the team. Daily vaccinations rose from a range of 2 to 9 people to a range of 45 to 90, and passed 120 on some days, and the team worked every day of the week.",
-    "before_label": "Before: one fixed vaccination point:",
-    "before_range": "2 – 9",
-    "after_label": "After: daily village visits:",
-    "after_range": "45 – 90",
-    "before_min": 2,
-    "before_max": 9,
-    "after_min": 45,
     "after_max": 90,
+    "body": "He proposed moving from a fixed point to daily village visits and persuaded management and the team. Daily vaccinations rose from a range of 2 to 9 people to a range of 45 to 90, and passed 120 on some days, and the team worked every day of the week.",
+    "before_max": 9,
     "scale_max": 120,
-    "note": "Daily vaccinated range on one shared scale from 0 to 120, not a total. The figures are Islam’s own account; there was no formal target to compare against."
+    "after_min": 45,
+    "after_label": "After: daily village visits:",
+    "before_min": 2,
+    "note": "Daily vaccinated range on one shared scale from 0 to 120, not a total. The figures are Islam’s own account; there was no formal target to compare against.",
+    "before_label": "Before: one fixed vaccination point:",
+    "title": "From a fixed vaccination point to daily village visits",
+    "after_range": "45 – 90",
+    "before_range": "2 – 9"
   },
   "programs": [
     {
