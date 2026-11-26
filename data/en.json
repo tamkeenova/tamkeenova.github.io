@@ -1,0 +1,269 @@
+{
+  "name": "Islam Ragab Eid",
+  "kicker": "Fayoum, Egypt",
+  "role": "Program Manager and Certified Trainer · Entrepreneurship, Innovation and Youth Development",
+  "aka": "Also known on social media as Islam Hagg Salem",
+  "intro": "A specialist in designing and managing entrepreneurship and training programs and in building partnerships with government, international and civil-society institutions. His work combines field project management, training, mentoring and digital systems, and it is measured by results.",
+  "motto": "Understand the need. Plan with rigor. Deliver in the field. Measure the impact.",
+  "titles": {
+    "stats": "Impact in numbers",
+    "expertise": "Expertise",
+    "journey": "Professional journey",
+    "field": "From the field: the vaccination campaign",
+    "programs": "Selected training programs",
+    "honors": "Honors",
+    "ventures": "Ventures",
+    "digital": "Digital systems and the status of each",
+    "credentials": "Credentials"
+  },
+  "stats": [
+    {
+      "prefix": "More than",
+      "value": "53",
+      "label": "workshops and training programs in entrepreneurship, innovation, digital skills and AI"
+    },
+    {
+      "prefix": "More than",
+      "value": "1,500",
+      "label": "training participations across workshops and programs (participations, not unique people)"
+    },
+    {
+      "prefix": "More than",
+      "value": "24",
+      "label": "entrepreneurs mentored in developing their ideas and business models"
+    },
+    {
+      "prefix": "About",
+      "value": "124",
+      "label": "volunteers plus a 10-person medical team, managed in the field on a community project with the Ministry of Health and USAID"
+    },
+    {
+      "prefix": "About",
+      "value": "100",
+      "label": "volunteers trained through Misr El Kheir programs"
+    },
+    {
+      "prefix": "About",
+      "value": "183",
+      "label": "job opportunities he helped create through partnerships and activities he coordinated at the business accelerator"
+    },
+    {
+      "prefix": "More than",
+      "value": "300",
+      "label": "paid training opportunities he helped make available in the same way"
+    },
+    {
+      "prefix": "",
+      "value": "7",
+      "label": "startups that received funding or financial awards through more than five competitions and events he helped organize"
+    }
+  ],
+  "expertise": [
+    {
+      "title": "Program design and management",
+      "body": "Planning programs, schedules and budgets; managing teams and volunteers; monitoring, evaluation and reporting."
+    },
+    {
+      "title": "Entrepreneurship and incubation",
+      "body": "Scouting, assessing and selecting startups; mentoring on business models; running competitions and connecting founders with support organizations."
+    },
+    {
+      "title": "Training and capacity building",
+      "body": "Training youth, volunteers and university students in employability, entrepreneurship, digital skills and AI."
+    },
+    {
+      "title": "Partnerships and resource development",
+      "body": "Building partnerships with government, companies, universities and NGOs, and negotiating financial and in-kind support."
+    },
+    {
+      "title": "Digital systems",
+      "body": "Designing volunteer, booking and registration systems on Google and no-code tools, and applying AI to training content and program management."
+    }
+  ],
+  "journey": [
+    {
+      "date": "Jan 2026 – present (part-time)",
+      "title": "Certified Trainer and Volunteer-System Contributor, Misr El Kheir Foundation",
+      "body": "Delivers training for youth and volunteers in entrepreneurship, digital skills and AI, takes part in training camps, and contributes to digital tools for registering, selecting and following up volunteers. About 100 volunteers trained."
+    },
+    {
+      "date": "Jan – Sep 2026 (part-time)",
+      "title": "Media Coordinator, Netsharek Program, Ministry of Youth and Sports with UNICEF",
+      "body": "Handled documentation and media communication for the program’s youth activities and initiatives in Fayoum."
+    },
+    {
+      "date": "May – Oct 2026 (part-time)",
+      "title": "Administrative Coordinator, Digital Egypt Cubs Initiative, Ministry of Communications and IT",
+      "body": "Handled administrative and operational coordination, participant records, and follow-up of schedules and activities."
+    },
+    {
+      "date": "Nov 2023 – Jan 2025",
+      "title": "Entrepreneurship Activities Coordinator, Athar Business Accelerator, Digital Egypt Innovation Hub, Fayoum",
+      "body": "Coordinated entrepreneurship, innovation and training activities, took part in scouting, assessing and selecting startups, negotiated with sponsors and partners, and built partnerships with government entities, companies and institutions to widen training and employment opportunities. Acted as project lead for three months."
+    },
+    {
+      "date": "May 2023 – May 2024",
+      "title": "Project Development Team Member, Ahl Masr Foundation",
+      "body": "Contributed to planning, follow-up and reporting for community projects."
+    },
+    {
+      "date": "Jun 2022 – Apr 2023",
+      "title": "RCCE Project Manager, Egyptian Red Crescent, Fayoum",
+      "body": "Managed field delivery of the USAID-funded project with the Ministry of Health, supervising about 124 volunteers and a 10-person medical team, handled finance and logistics, produced technical, financial and statistical reports, and introduced a weekly reporting system that did not exist before."
+    },
+    {
+      "date": "Egyptian Red Crescent, Fayoum branch",
+      "title": "Volunteer, relief and emergency leadership",
+      "body": "Deputy Youth and Volunteering Officer, Relief and Emergency Team Leader, Emergency Team member, and leader of the volunteer psychological support team."
+    },
+    {
+      "date": "Training and mentoring",
+      "title": "Trainer and mentor in entrepreneurship and employability",
+      "body": "Certified trainer for the Ministry of Higher Education (Be Prepared initiative) for university students, entrepreneurship trainer in the BRICS Simulation Program of the Ministry of Youth and Sports, mentor in the Creativity Ambassadors Program of the Ministry of Communications, Psychological First Aid trainer for three volunteer groups in Fayoum, and employability trainer with the International Organization for Migration."
+    }
+  ],
+  "field": {
+    "title": "From a fixed vaccination point to daily village visits",
+    "body": "He proposed moving from a fixed point to daily village visits and persuaded management and the team. Daily vaccinations rose from a range of 2 to 9 people to a range of 45 to 90, and passed 120 on some days, and the team worked every day of the week.",
+    "before_label": "Before: one fixed vaccination point:",
+    "before_range": "2 – 9",
+    "after_label": "After: daily village visits:",
+    "after_range": "45 – 90",
+    "before_min": 2,
+    "before_max": 9,
+    "after_min": 45,
+    "after_max": 90,
+    "scale_max": 120,
+    "note": "Daily vaccinated range on one shared scale from 0 to 120, not a total. The figures are Islam’s own account; there was no formal target to compare against."
+  },
+  "programs": [
+    {
+      "title": "Preparing youth and graduates for work to safety standards",
+      "body": "Designed, managed and delivered in Fayoum with an energy company and a first-aid organization, reaching 300 young women and men, combining employability skills, soft skills and occupational safety training."
+    },
+    {
+      "title": "Volunteer qualification",
+      "body": "A program for the volunteers of a charitable foundation in Fayoum on presentation and public speaking, CV writing and building a professional LinkedIn profile."
+    },
+    {
+      "title": "Preparing social-work students for the job market",
+      "body": "Training for fourth-year students on job search, advertised versus hidden jobs, building a professional network and personal finance basics for a career."
+    },
+    {
+      "title": "Entrepreneurship and design thinking",
+      "body": "Took part in delivering the entrepreneurship program of the Creativity Ambassadors initiative in Fayoum and Sohag, and in preparing the entrepreneurship track of the BRICS simulation in Sharm El Sheikh."
+    },
+    {
+      "title": "Civil-society organization management",
+      "body": "A training lecture in Cairo for civil-society leaders and coordinators from South Sudan living in Egypt, covering strategic planning, managing teams and volunteers, resource sustainability and governance."
+    }
+  ],
+  "honors": [
+    {
+      "tag": "2025",
+      "title": "Honored by Mrs. Intissar El-Sisi",
+      "body": "Honored as the representative of the Egyptian Red Crescent Fayoum branch."
+    },
+    {
+      "tag": "Startup Power",
+      "title": "Honored by businessman Ahmed Abou Hashima",
+      "body": "Honored in the Startup Power competition after ECO Furniture won."
+    },
+    {
+      "tag": "2022",
+      "title": "Best Green Startup in Upper Egypt",
+      "body": "Title won by ECO Furniture."
+    }
+  ],
+  "ventures": [
+    {
+      "status": "ok",
+      "tag": "Live",
+      "title": "Sportixa: an app for managing sports academies and facilities",
+      "body": "Founder. A mobile application that is live and has customers, providing digital solutions for managing and operating sports academies and facilities, aimed at the Egyptian and Arab markets."
+    },
+    {
+      "status": "pr",
+      "tag": "Exited",
+      "title": "ECO Furniture: eco-friendly furniture from reused metal drums",
+      "body": "Founder. Named Best Green Startup in Upper Egypt in 2022, ran a training initiative for about 50 technical-education students, 13 of whom took part-time jobs, and achieved an investment exit."
+    },
+    {
+      "status": "pr",
+      "tag": "Training company",
+      "title": "TamkeeNova HUB",
+      "body": "A Fayoum training company that prepares Upper Egypt youth for the job market and builds partnerships to support training programs."
+    }
+  ],
+  "digital": [
+    {
+      "status": "ok",
+      "tag": "Implemented",
+      "title": "Volunteer management: Red Crescent Fayoum and Misr El Kheir",
+      "body": "An online system covering registration, qualification, training and operations, implemented with both organizations."
+    },
+    {
+      "status": "wip",
+      "tag": "In progress",
+      "title": "A version for Al-Nasser association",
+      "body": "A version is being prepared for the association, which is itself under formation."
+    },
+    {
+      "status": "pr",
+      "tag": "Presented",
+      "title": "El Garhy Foundation for Development",
+      "body": "The system was presented to the foundation as a demonstration."
+    },
+    {
+      "status": "ok",
+      "tag": "Implemented",
+      "title": "Ramadan booking system for Misr El Kheir",
+      "body": "A booking system on Google tools, published with Ramadan 2027 dates."
+    }
+  ],
+  "credentials": [
+    {
+      "group": "ICRC",
+      "items": [
+        "Emergency Team Formation training, International Committee of the Red Cross",
+        "Internationally certified trainer in field security and safety during humanitarian interventions, International Committee of the Red Cross"
+      ]
+    },
+    {
+      "group": "2026",
+      "items": [
+        "Training of Trainers (TOT), Misr El Kheir Foundation",
+        "Mentorship and Coaching, Orange Corners Egypt",
+        "Leadership Development Program, U.S. Embassy in Cairo"
+      ]
+    },
+    {
+      "group": "2025",
+      "items": [
+        "Certified Trainer, Ministry of Higher Education",
+        "Psychological First Aid Trainer, Egyptian Red Crescent"
+      ]
+    },
+    {
+      "group": "2021",
+      "items": [
+        "Entrepreneurship Program, The British University in Egypt"
+      ]
+    },
+    {
+      "group": "2022 – 2024",
+      "items": [
+        "AI Career Essentials, ALX (2024)",
+        "Strategic Leadership Program, Ministry of Youth and Sports (2023)",
+        "Certified Trainer, National Institute for Governance and Sustainable Development (2022)",
+        "Crisis Management and Negotiation, Nasser Military Academy (2022)",
+        "Entrepreneurship Program, FEPS Business Incubator, Cairo University (2022)"
+      ]
+    }
+  ],
+  "credentials_extra": [
+    "Bachelor of Laws (LL.B.), Beni Suef University, 2022",
+    "Content creator since 2022 on entrepreneurship, AI and youth development, with a community of more than 11,000 followers. Board member of the Fayoum Disability Club."
+  ],
+  "footer": "LinkedIn: linkedin.com/in/eslamhagsalam"
+}
