@@ -1,0 +1,37 @@
+
+:root{--g:#0f4c5c;--sg:#4f8a95;--t:#d9822b;--cr:#f4f1e8;--cr2:#ebe5d3;--ln:#ddd5bd;--ink:#2c3e43;--l1:#f4c48a;--l2:#c5dde1;--l3:#dcecee;--l4:#f8d7a8;--ring:#d9822b}
+*{box-sizing:border-box}html,body{margin:0}body{background:#fff;color:var(--ink);font-family:Inter,system-ui,sans-serif;line-height:1.85}
+.w{max-width:1000px;margin:auto;padding:0 18px}
+header{margin:18px auto;max-width:1000px;background:var(--g);color:var(--cr);border-radius:16px;padding:36px 28px;position:relative;overflow:hidden}
+header::after{content:'';position:absolute;inset-inline-end:-50px;bottom:-50px;width:210px;height:210px;border-radius:50%;border:24px solid var(--ring);opacity:.35}
+header>*{position:relative;z-index:1}
+.mono{width:84px;height:84px;border-radius:50%;display:grid;place-items:center;background:var(--cr2);color:var(--g);font-size:30px;font-weight:700;box-shadow:0 0 0 4px var(--g),0 0 0 6px var(--ring);margin-bottom:16px}
+.k{color:var(--l1);font-size:13px;font-weight:600;letter-spacing:.04em}h1{font-size:clamp(32px,6vw,52px);margin:6px 0;line-height:1.3;color:#fff}
+.role{color:var(--l1);font-weight:600;font-size:clamp(15px,2.2vw,19px)}.aka{font-size:13px;color:var(--l2)}
+.intro{max-width:700px;margin-top:14px;font-size:16px;color:var(--l3)}.motto{margin-top:14px;font-weight:700;color:var(--l4)}
+section{padding:28px 0}h2{font-size:26px;margin:0 0 16px;color:var(--g)}h2::after{content:'';display:block;width:44px;height:3px;background:var(--t);margin-top:6px;border-radius:2px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}
+.card{background:#fff;border:1px solid #e9e2d2;border-inline-start:3px solid var(--sg);border-radius:10px;padding:14px 16px;break-inside:avoid}
+.num{background:var(--cr);border:1px solid var(--ln);border-radius:12px;padding:14px;break-inside:avoid}
+.card h3{margin:2px 0 4px;font-size:17px;line-height:1.55;color:var(--g)}.card p{margin:0;font-size:14.5px}
+.num b{display:block;font-size:40px;color:var(--t);line-height:1.2;font-family:Inter}.num span{font-size:13.5px;line-height:1.7;display:block;color:#4d5347}
+.tag{display:inline-block;font-size:12px;padding:1px 10px;border-radius:20px;font-weight:700;margin-bottom:2px}.ok{background:#d9eee2;color:#14573a}.wip{background:#fbe8c8;color:#8a5a00}.pr{background:#e4e4f2;color:#3b3b7a}
+.tl{border-inline-start:2px solid var(--ln);padding-inline-start:20px;margin-inline-start:6px}.tl .row{position:relative;margin-bottom:18px;break-inside:avoid}
+.tl .row::before{content:'';position:absolute;inset-inline-start:-27px;top:7px;width:10px;height:10px;border-radius:50%;background:var(--t);box-shadow:0 0 0 3px #fff}
+.tl .d{color:var(--t);font-weight:700;font-size:13px}.tl h3{margin:0 0 3px;font-size:16.5px;line-height:1.55;color:var(--g)}.tl p{margin:0;font-size:14.5px}
+.fbox{background:var(--cr);border:1px solid var(--ln);border-radius:14px;padding:18px 16px}.fbox h3{margin:0 0 4px;color:var(--g)}
+.bar{height:24px;background:#ece4d2;border-radius:6px;position:relative;margin:6px 0 14px}.bar i{position:absolute;top:0;bottom:0;background:var(--t);border-radius:6px}
+.scale{display:flex;justify-content:space-between;font-size:12px;opacity:.7}.lab{text-align:start;font-size:14px}.note{font-size:12.5px;color:#7a7466}
+.cr{columns:2 280px;gap:20px}.cr div{break-inside:avoid;margin-bottom:10px}.cr b{color:var(--t)}.cr ul{margin:4px 0;padding-inline-start:20px}.cr li{font-size:14.5px}
+footer{background:var(--g);color:var(--cr);border-radius:16px;max-width:1000px;margin:10px auto 24px;padding:22px 24px;font-size:14px}
+header,footer,.num,.tag{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+
+body{font-family:'Noto Naskh Arabic','Noto Sans Arabic',Inter,system-ui,sans-serif}
+.nav{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid var(--ln)}
+.nav .in{max-width:1000px;margin:auto;padding:8px 18px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.nav .brand{font-weight:700;color:var(--g);margin-inline-end:auto;font-size:16px}
+.nav a{color:var(--ink);text-decoration:none;font-size:13px;padding:8px 10px;border-radius:20px;min-height:40px;display:inline-flex;align-items:center}
+.nav a.on{background:var(--g);color:#fff}.nav a.lg{border:1px solid var(--t);color:var(--t);font-weight:700}
+.mono{overflow:hidden}.mono img{width:100%;height:100%;border-radius:50%;object-fit:cover;display:block}
+.num small{display:block;font-size:13px;font-weight:700;color:var(--sg);line-height:1.4}
+footer a{color:var(--l1)}
