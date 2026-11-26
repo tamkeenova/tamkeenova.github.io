@@ -15,7 +15,8 @@
     "field": "From the field: the vaccination campaign",
     "credentials": "Credentials",
     "stats": "Impact in numbers",
-    "contact": "Contact"
+    "contact": "Contact",
+    "contact_page": "Contact us"
   },
   "stats": [
     {
