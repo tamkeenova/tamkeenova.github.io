@@ -65,6 +65,6 @@ if(d.contact||s.linkedin){var ct2=d.contact||{},fc=e('div','ftc');
  ft.appendChild(fc)}else ft.textContent=d.footer;
 app.appendChild(ft);
 document.documentElement.setAttribute('data-ready','1');
-if(!/\/admin(\/|$)/.test(location.pathname)){var an=document.createElement('script');an.src='../analytics.js?v=1';an.defer=true;document.body.appendChild(an)}
+if(!/\/admin(\/|$)/.test(location.pathname)){var an=document.createElement('script');an.src='../analytics.js?v=2';an.defer=true;document.body.appendChild(an)}
 }).catch(function(){document.getElementById('app').textContent=L==='ar'?'تعذر تحميل المحتوى.':'Could not load the content.'});
 })();
